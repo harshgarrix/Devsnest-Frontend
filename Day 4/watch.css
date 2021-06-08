@@ -63,7 +63,7 @@
 }
 .line1 {
     -webkit-animation: rotation 60s infinite linear;
-    -webkit-transform-origin: left bottom;
+    -webkit-transform-origin: bottom;
 }
 
 @-webkit-keyframes rotation {
@@ -76,7 +76,7 @@
 }
 .line2 {
     -webkit-animation: rotation 3600s infinite linear;
-    -webkit-transform-origin: left bottom;
+    -webkit-transform-origin: bottom;
 }
 
 @-webkit-keyframes rotation {
@@ -89,7 +89,7 @@
 }
 .line3 {
     -webkit-animation: rotation 86400s infinite linear;
-    -webkit-transform-origin: left bottom;
+    -webkit-transform-origin: bottom;
 }
 
 @-webkit-keyframes rotation {
