@@ -1,0 +1,17 @@
+.imga{
+	display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+img {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+body{
+  color: teal;
+}
