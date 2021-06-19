@@ -57,7 +57,7 @@ for (var i = 0; i < arr1.length; i++) {
     for (var j = i; j < arr1.length; j++) {
         if (arr1[i] == arr1[j])
             y++;
-        if (x < y) {
+        if (x <= y) {
             x = y;
             item = arr1[i];
         }
