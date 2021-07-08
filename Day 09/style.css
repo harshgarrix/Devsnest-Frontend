@@ -1,0 +1,53 @@
+.text h1{
+  text-align: center;
+}
+.text{
+  border-radius: 10px;
+  background-color: darkseagreen;
+  color: darkslategrey;
+  width: 210px;
+  height: 70px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 610px;
+  height: 550px;
+  background-color: darksalmon;
+  border-radius: 10px;
+}
+
+.flex-item {
+  border-radius: 16px;
+  background: lightcoral;
+  border: 2px solid red;
+  padding: 10px;
+  width: 70px;
+  height: 50px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.clicked{
+  background-color: crimson;
+}
+.flex-item:hover{
+  background-color: indianred;
+}

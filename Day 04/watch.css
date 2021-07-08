@@ -1,0 +1,115 @@
+.dot3 {
+  height: 200px;
+  width: 200px;
+  background-color: palegoldenrod;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 650px;
+  box-shadow:  8px 8px 17px #7ad23,
+             -8px -8px 17px #d3c729;
+}
+.dot2{
+  height: 250px;
+  width: 250px;
+  background-color: goldenrod;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 225px;
+  left: 625px;
+  box-shadow: inset 8px 8px 23px #b3a922,
+            inset -8px -8px 23px #cfc328;
+}
+.dot1{
+  height: 260px;
+  width: 260px;
+  background-color: mediumturquoise;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 220px;
+  left: 620px;
+  box-shadow:  8px 8px 20px #d6d6d6,
+             -8px -8px 20px #ffffff;
+}
+.line1{
+  border-left: 3px solid darkgoldenrod;
+  height: 100px;
+  position: absolute;
+  left: 49%;
+  margin-top: 250px;
+  margin-left: -3px;
+  top: 0;
+}
+.line2{
+  border-left: 3px solid darkgoldenrod;
+  height: 100px;
+  position: absolute;
+  left: 49%;
+  margin-top: 250px;
+  margin-left: -3px;
+  top: 0;
+}
+.line3{
+  border-left: 3px solid darkgoldenrod;
+  height: 100px;
+  position: absolute;
+  left: 49%;
+  margin-top: 250px;
+  margin-left: -3px;
+  top: 0;
+}
+.dot4{
+  height: 10px;
+  width: 10px;
+  background-color: darkseagreen;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 345px;
+  left: 48.6%;
+  z-index: 10;
+  box-shadow:  8px 8px 100px #4f4a0f,
+             -8px -8px 100px #ffff3d;
+}
+.line1 {
+    -webkit-animation: rotation 60s infinite linear;
+    -webkit-transform-origin: bottom;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+.line2 {
+    -webkit-animation: rotation 3600s infinite linear;
+    -webkit-transform-origin: bottom;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+.line3 {
+    -webkit-animation: rotation 86400s infinite linear;
+    -webkit-transform-origin: bottom;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
